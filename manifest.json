@@ -3,12 +3,7 @@
   "name": "Auto Unload Tabs",
   "version": "1.0.0",
   "description": "Automatically unloads tabs that haven't been used for 10 minutes. Activity is detected via mouse movement and keyboard typing.",
-  "permissions": [
-    "tabs",
-    "alarms",
-    "storage",
-    "scripting"
-  ],
+  "permissions": ["tabs", "alarms", "storage", "scripting"],
   "host_permissions": ["<all_urls>"],
   "background": {
     "scripts": ["background.js"]
@@ -26,6 +21,14 @@
       "16": "icons/icon-16.png",
       "32": "icons/icon-32.png",
       "48": "icons/icon-48.png"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "auto-unload-tabs@erlangparasu.dev",
+      "data_collection_permissions": {
+        "data_shared": []
+      }
     }
   },
   "icons": {
