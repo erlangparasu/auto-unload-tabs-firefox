@@ -27,7 +27,7 @@
     "gecko": {
       "id": "auto-unload-tabs@erlangparasu.dev",
       "data_collection_permissions": {
-        "data_shared": []
+        "required": ["none"]
       }
     }
   },
