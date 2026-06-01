@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auto Unload Tabs</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Auto Unload Tabs</h1>
+
+    <div class="setting">
+      <label for="enabled">Enabled</label>
+      <input type="checkbox" id="enabled">
+    </div>
+
+    <div class="setting">
+      <label for="idleMinutes">Unload after (minutes)</label>
+      <input type="number" id="idleMinutes" min="1" max="120" value="10">
+    </div>
+
+    <div class="setting">
+      <label for="pinnedExempt">Skip pinned tabs</label>
+      <input type="checkbox" id="pinnedExempt">
+    </div>
+
+    <div class="setting">
+      <label for="audibleExempt">Skip audible tabs</label>
+      <input type="checkbox" id="audibleExempt">
+    </div>
+
+    <button id="save">Save</button>
+    <p id="status" class="status"></p>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
