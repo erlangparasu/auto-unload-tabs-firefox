@@ -2,6 +2,10 @@
 
 A Firefox extension that automatically discards (unloads) tabs that haven't been used for a configurable amount of time. Activity is detected via mouse movement, keyboard typing, and scrolling.
 
+## Screenshot
+
+![Auto Unload Tabs Popup](screenshots/Screenshot-2026-06-01-at-13.05.58.png)
+
 ## Features
 
 - **Auto-unload idle tabs** — Discards tabs idle for 10 minutes (configurable 1–120 min)
